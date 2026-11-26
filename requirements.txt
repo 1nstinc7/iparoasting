@@ -1,0 +1,4 @@
+# Python 3.10+ (X | Y type unions)
+impacket>=0.11.0
+pyasn1>=0.4.8
+pycryptodomex>=3.15
