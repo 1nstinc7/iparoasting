@@ -1,4 +1,4 @@
-# iparoasting — автоматизированный Kerberoasting для FreeIPA / RED OS
+# iparoasting — Automated Kerberoasting for FreeIPA / RED OS
 
 The tool implements a Kerberoasting attack in **FreeIPA** and **RED ADM** domains based on  [**CVE-2024-3183**](https://github.com/Im10n/CVE-2024-3183-POC/tree/main). 
 The main goal: an authenticated user with any privileges can obtain a TGS-ticket for an arbitrary domain account. The ticket is encrypted with the key of the *target* user, which can be recovered offline using a dictionary.
